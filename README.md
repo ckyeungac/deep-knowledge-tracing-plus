@@ -1,5 +1,5 @@
 # DKT+
-This is the repository for the code in the paper *[Addressing Two Problems in Deep Knowledge Tracing via Prediction-Consistent Regularization](https://dl.acm.org/citation.cfm?id=3231647)* ([pdf](https://arxiv.org/pdf/1806.02180.pdf))
+This is the repository for the code in the paper *Addressing Two Problems in Deep Knowledge Tracing via Prediction-Consistent Regularization* ([ACM](https://dl.acm.org/citation.cfm?id=3231647), [pdf](https://arxiv.org/pdf/1806.02180.pdf))
 
 If you find this repository useful, please cite
 ```
