@@ -1,7 +1,17 @@
 # DKT+
-This is the repository for the code in the paper *DKT+: Addressing Two Problems in Deep Knowledge Tracing via Prediction-Consistent Regularization*
+This is the repository for the code in the paper *[Addressing Two Problems in Deep Knowledge Tracing via Prediction-Consistent Regularization](https://dl.acm.org/citation.cfm?id=3231647)* ([pdf](https://arxiv.org/pdf/1806.02180.pdf))
 
---
+If you find this repository useful, please cite
+```
+@inproceedings{LS2018_Yeung_DKTP,
+  title={Addressing two problems in deep knowledge tracing via prediction-consistent regularization},
+  author={Yeung, Chun Kit and Yeung, Dit Yan},
+  year={2018},
+  booktitle = {{Proceedings of the 5th ACM Conference on Learning @ Scale}},
+  pages = {5:1--5:10},
+  publisher = {ACM},
+}
+```
 
 ## Abstact
 Knowledge tracing is one of the key research areas for empowering personalized education. It is a task to model students' mastery level of a knowledge component (KC) based on their historical learning trajectories. In recent years, a recurrent neural network model called deep knowledge tracing (DKT) has been proposed to handle the knowledge tracing task and literature has shown that DKT generally outperforms traditional methods. However, through our extensive experimentation, we have noticed two major problems in the DKT model. The first problem is that the model fails to reconstruct the observed input. As a result, even when a student performs well on a KC, the prediction of that KC's mastery level decreases instead, and vice versa. Second, the predicted performance across time-steps is not consistent. This is undesirable and unreasonable because student's performance is expected to transit gradually over time. To address these problems, we introduce regularization terms that correspond to \emph{reconstruction} and \textit{waviness} to the loss function of the original DKT model to enhance the consistency in prediction. Experiments show that the regularized loss function effectively alleviates the two problems without degrading the original task of DKT.
